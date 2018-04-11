@@ -1,0 +1,28 @@
+class Person{
+    String name;
+    int age;
+    char sex;
+    
+    //method
+    void method(){
+        System.out.println("Hello");
+        System.out.println("My name is " + name + ".");
+     
+    }
+}
+public class App{
+    public static void main(String[] args){
+        Person person1=new Person();
+        person1.name="Sonu Sri";
+        person1.age= 22;
+        person1.sex='F';
+        person1.method();
+        
+        Person person2=new Person();
+        person2.name="Mahesh";
+        person2.age= 21;
+        person2.sex='M';
+        person2.method();
+        
+    }
+}
